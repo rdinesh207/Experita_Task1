@@ -76,16 +76,3 @@ pip install -r requirements.txt
    python app.py
    ```
    Open your browser at [http://127.0.0.1:5000/](http://127.0.0.1:5000/) to view the data.
-
-## Notes
-
-- **Web Driver:** Make sure you have the appropriate Chrome WebDriver installed and available in your PATH. The version should match your installed Chrome browser.
-- **Database:** Running `scraper.py` will overwrite previous data in `exhibitors.db`. Ensure that you have backups if necessary.
-- **Error Handling:** The scraper includes a fallback mechanism if the pagination fails to update. Check the console output for any error messages.
-
-## Acknowledgements
-
-- [Selenium Documentation](https://www.selenium.dev/documentation/)
-- [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- [Flask Documentation](https://flask.palletsprojects.com/)
-- [DataTables](https://datatables.net/)
