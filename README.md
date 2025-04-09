@@ -89,4 +89,3 @@ pip install -r requirements.txt
 - [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 - [Flask Documentation](https://flask.palletsprojects.com/)
 - [DataTables](https://datatables.net/)
-```
